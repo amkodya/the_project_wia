@@ -1,0 +1,309 @@
+/* the project css file */
+
+body {
+	background-color: #F3E5CA;
+	font-family: "Dosis", sans-serif;
+	color: #F3E5CA;
+}
+#logo {
+	width: 65%;
+	margin: 50px 0 0 -95px;
+	clear: none;
+	float: left;
+}
+h1,
+h2 {
+	color: #325473;
+	float: left;
+	clear: right;
+	font-size: 30pt;
+	text-align: center;
+}
+h2 {
+	font-size: 18pt;
+}
+#shopbox {
+	background-color: #325473;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	z-index: -10;
+}
+#shopbox a {
+	text-transform: uppercase;
+	color: #F3E5CA;
+	text-decoration: none;
+	font-size: 18pt;
+	float: right;
+	margin: 10px 20px 0 0;
+}
+#shopbox a:hover {
+	color: #D8AB91;
+}
+#storepic {
+	width: 650px;
+	height: 550px;
+	position: relative;
+	top: 0;
+	left: -80px;
+}
+/*jquery menu*/
+#menu { 
+	width: 18%;
+	height: 690px;
+	clear: none;
+	float: left;
+	background-color: #D8AB91;
+	margin: 30px 100px;
+	border-radius: 10px;
+	font-size: 40px;
+}
+.ul-menu ul {
+	width: 100%;
+	height: 100%;
+}
+.ui-menu li {
+	height: 100px;
+	background: #D8AB91;
+}
+#menu li:first-child {
+	margin-top: 55px;
+}
+#menu li ul li:nth-child(1) {
+	margin-top: 0;
+}
+.ul-menu li ul,
+.ui-menu li ul li {
+	clear: both;
+	float: left;
+	width: 351px;
+	height: 50px;
+}
+.ui-menu li:hover,
+.ui-menu li ul:hover,
+.ui-menu li ul li:hover {
+	background-color: #325473;
+}
+#menu a {
+	list-style-type: none;
+	text-decoration: none;
+	color: #F3E5CA;
+	font-family: "Dosis", sans-serif;
+}
+#video {
+	background-color: #F5DDA2;
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	top: 190px;
+	left: 440px;
+	border-radius: 10px;
+}
+video {
+	padding: 5px;
+	margin-left: 45px;
+}
+/*lightbox*/
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	border-radius: 0 0 5px 5px;
+	background: none;
+	border: none;
+	text-align: center;
+}
+#wrapper img:hover {
+	opacity: 0.6;
+
+}
+#wrapper h1 {
+	float: left;
+	clear: right;
+	margin: 0px 100px 50px 150px;
+}
+#lightbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: url(../images/overlay.png) repeat;
+}
+#lightbox img {
+	box-shadow: 0 0 25px #111;
+	-webkit-box-shadow: 0 0 25px #111;
+	-moz-box-shadow: 0 0 25px #111;
+	max-width: 500px;
+	max-height: 600px;
+	margin-top: 20px;
+}
+#lightbox button {
+	color: #fff;
+	background-color: #325473;
+	margin-right: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+	border-style: none;
+	font-family: "Dosis", sans-serif;
+
+}
+/* map */
+.map_container {
+	background: url(../images/template/map.jpg) no-repeat 0px 0px;
+	height: 425px;
+	width: 860px;
+	position: relative;
+	top: 30px;
+	left: -150px;
+	color: #fff;
+	float: right;
+	margin: 0 0 0 20px;
+}
+.map_container .clear_both { 
+	clear: both; 
+	line-height: 1px; 
+}
+.map_container .city_info h2 {
+	margin: 0px 0px 0px 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.map_container .city_info h3 {
+	margin: 0px 0px 12px 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #2c3748;
+}
+.map_container a,
+a:visited {
+	color: #D8AB91;
+	margin: 0px 10px 0px 0px;
+}
+.map_container a.dot {
+	background: url(../images/template/dots.png) no-repeat 0px 0px;
+	height: 20px;
+	width: 20px;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+}
+.map_container a.dot:hover {
+	background-position: 0px -20px;
+}
+.map_container a.dot.selected {
+	background-position: 0px -40px;
+}
+.map_container .form_state {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.map_container .detail_container {
+	position: absolute;
+	top: 0px;
+	left: 610px;
+	width: 280px;
+	height: 370px;
+	background-color: #325473;
+	padding: 10px;
+	border-radius: 5px;
+}
+.map_container .city_detail {
+	position: absolute;
+	top: 0px;
+	width: 230px;
+	padding: 10px 0px 0px 12px;
+	border-radius: 10px;
+}
+.map_container .city_detail .city_photo {
+	float: left;
+	margin: 0px 15px 0px 0px;
+	border-radius: 8px;
+	box-shadow: 0px 5px 3px #000;
+}
+.map_container .city_detail .city_info {
+	width: 130px;
+	float: left;
+}
+.map_container h2,
+.map_container h3,
+.map_container p {
+	clear: both;
+	float: left;
+}
+.map_container h2 {
+	margin: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F5DDA2;
+}
+.map_container h3 {
+	margin: 0 0 12px 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #D8AB91;
+}
+.map_container p {
+	margin: 0 0 12px 0;
+	color: #F3E5CA;
+}
+/*  MAP - City Info   */
+.city_detail_container { 
+	display: none; 
+}
+.city_detail_container .city_detail { 
+	width: 300px; 
+	border: 1px solid #ccc; 
+}
+
+@media screen and (max-width: 1000px) {
+
+	#menu {
+     clear: both;
+     float: left;
+     width: 100%;
+	 font-size: 80px;
+	 position: absolute;
+	 top: 270px;
+	 left: -100px;
+	 text-align: center;
+	 height: 55%;
+   }
+   #logo {
+   	width: 100%;
+   	position: absolute;
+   	top: 0;
+   	left: 100px;
+   }
+   #shopbox {
+   	position: absolute;
+   	top: 140px;
+   }
+   #video,
+   .map_container {
+   	position: absolute;
+   	top: 500px;
+   	width: 100%;
+   }
+   #wrapper {
+   	width: 90%;
+   	position: relative;
+   	top: 900px;
+   }
+   #lightbox button {
+   	 width: 15%;
+   	 height: 2%;
+   	 font-size: 17pt;
+   	 padding-bottom: 30px;
+   }
+   #lightbox img {
+   	max-width: 80%;
+   	max-height: 80%;
+   }
+
+}
