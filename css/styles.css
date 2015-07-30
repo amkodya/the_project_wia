@@ -31,14 +31,13 @@ h2 {
 }
 /*jquery menu*/
 #menu { 
-	width: 18%;
+	width: 20%;
 	height: 670px;
 	clear: none;
 	float: left;
 	background-color: #D8AB91;
-	margin: 45px 60px 0 120px;
-	border-radius: 10px;
-	font-size: 40px;
+	margin: 50px 60px 0 100px;
+	font-size: 43px;
 }
 .ul-menu ul {
 	width: 100%;
