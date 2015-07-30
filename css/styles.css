@@ -290,7 +290,7 @@ video {
    #shopbox {
    	position: absolute;
    	top: 170px;
-   	height: 23%;
+   	height: 120px;
    	padding-top: 30px;
    }
    #shopbox a {
