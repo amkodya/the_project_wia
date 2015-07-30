@@ -7,7 +7,7 @@ body {
 }
 #logo {
 	width: 65%;
-	margin: 50px 0 0 -95px;
+	margin: 50px 0 0 -55px;
 	clear: none;
 	float: left;
 }
@@ -22,26 +22,6 @@ h2 {
 h2 {
 	font-size: 18pt;
 }
-#shopbox {
-	background-color: #325473;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 50px;
-	z-index: -10;
-}
-#shopbox a {
-	text-transform: uppercase;
-	color: #F3E5CA;
-	text-decoration: none;
-	font-size: 18pt;
-	float: right;
-	margin: 10px 20px 0 0;
-}
-#shopbox a:hover {
-	color: #D8AB91;
-}
 #storepic {
 	width: 650px;
 	height: 550px;
@@ -52,11 +32,11 @@ h2 {
 /*jquery menu*/
 #menu { 
 	width: 18%;
-	height: 690px;
+	height: 670px;
 	clear: none;
 	float: left;
 	background-color: #D8AB91;
-	margin: 30px 100px;
+	margin: 45px 60px 0 120px;
 	border-radius: 10px;
 	font-size: 40px;
 }
@@ -69,7 +49,7 @@ h2 {
 	background: #D8AB91;
 }
 #menu li:first-child {
-	margin-top: 55px;
+	margin-top: 35px;
 }
 #menu li ul li:nth-child(1) {
 	margin-top: 0;
@@ -98,7 +78,7 @@ h2 {
 	height: 500px;
 	position: absolute;
 	top: 190px;
-	left: 440px;
+	left: 420px;
 	border-radius: 10px;
 }
 video {
@@ -142,7 +122,7 @@ video {
 }
 #lightbox button {
 	color: #fff;
-	background-color: #325473;
+	background-color: #D8AB91;
 	margin-right: 20px;
 	font-size: 20px;
 	margin-top: 20px;
@@ -154,10 +134,10 @@ video {
 .map_container {
 	background: url(../images/template/map.jpg) no-repeat 0px 0px;
 	height: 425px;
-	width: 860px;
+	width: 760px;
 	position: relative;
-	top: 30px;
-	left: -150px;
+
+	left: -200px;
 	color: #fff;
 	float: right;
 	margin: 0 0 0 20px;
@@ -178,8 +158,7 @@ video {
 	letter-spacing: 4px;
 	color: #2c3748;
 }
-.map_container a,
-a:visited {
+.map_container a {
 	color: #D8AB91;
 	margin: 0px 10px 0px 0px;
 }
@@ -260,7 +239,32 @@ a:visited {
 	width: 300px; 
 	border: 1px solid #ccc; 
 }
+/* contact */
 
+#canvas {
+	padding-left: 300px;
+}
+/* top bar */
+#shopbox {
+	background-color: #325473;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+
+}
+#shopbox a {
+	text-transform: uppercase;
+	color: #F3E5CA;
+	text-decoration: none;
+	font-size: 18pt;
+	float: right;
+	margin: 10px 20px 0 0;
+}
+#shopbox a:hover {
+	color: #D8AB91;
+}
 @media screen and (max-width: 1000px) {
 
 	#menu {
@@ -284,7 +288,9 @@ a:visited {
    	position: absolute;
    	top: 140px;
    }
-   #video,
+   #video {
+   	display: none;
+   }
    .map_container {
    	position: absolute;
    	top: 500px;

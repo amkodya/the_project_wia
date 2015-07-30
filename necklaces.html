@@ -1,4 +1,5 @@
-<!-- Project WIA JULY 2015 ASHLEY KODYA-->
+
+<!-- necklaces.html -->
 
 <!DOCTYPE html>
 <html>
@@ -11,22 +12,26 @@
 	 <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css" /> 
 	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 
+
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery-ui.js"></script>
-	<script type="text/javascript" src="js/video.js"></script>
+	<script type="text/javascript" src="js/animation.js"></script>
 
 	<!-- jquery code -->
 	<script>
   		$(function() {
     	$( "#menu" ).menu();
   		});
-
   		
   	</script>
 
 </head>
 <body>
+
 	<header>
+		<article id="shopbox">
+			<a href="http://www.etsy.com/shop/koalakrtnz">Shop collection now ></a>
+		</article>
 
 		<ul id="menu">
 			<li><a href="earrings.html">Earrings</a>
@@ -43,20 +48,42 @@
   			<li><a href="contact.html">Contact Us</a></li>
 		</ul>
 
-		<a href="index.html"><img id="logo" src="images/koalalogo.png"></a><br>
-		<article id="shopbox">
-			<a href="http://www.etsy.com/shop/koalakrtnz">Shop collection now ></a>
-		</article>
+		<a href="index.html"><img id="logo" src="images/koalalogo.png"></a>
+		
+
 	</header>
 
-	<section>
-		<div id="video">
-			<video src="video/photo_gal.mp4" onClick="pauseToggle()" id="vid" type="video/mp4" width="700" height="500" autoplay>
-				video is not supported!
-			</video>
+	<section id="canvas">
+
+		<img id="img1" src="images/necklace.png" width="150" height="150">
+		<canvas id="Canvas1">
+			Your browser does not support canvas
+		</canvas>
+
+		<img id="img1" src="images/necklace.png" width="150" height="150"><br>
+
+		<img id="img2" src="images/necklace2.png" width="150" height="150">
+
+		<img id="img2" src="images/necklace3.png" width="150" height="150">
 		
-		</div>
+
+		<img id="img2" src="images/necklace2.png" width="150" height="150">
+
+		<img id="img2" src="images/necklace5.png" width="150" height="150"> <br>
+
+		<img id="img2" src="images/necklace6.png" width="150" height="150">
+
+		<img id="img2" src="images/necklace6.png" width="150" height="150">
+
+		<img id="img2" src="images/necklace6.png" width="150" height="150">
+
+		<img id="img2" src="images/necklace6.png" width="150" height="150">
+
+
+		
+
 	</section>
+
 
 
 </body>
