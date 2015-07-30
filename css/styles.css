@@ -37,7 +37,7 @@ h2 {
 	float: left;
 	background-color: #D8AB91;
 	margin: 50px 60px 0 100px;
-	font-size: 43px;
+	font-size: 42px;
 }
 .ul-menu ul {
 	width: 100%;
@@ -133,10 +133,10 @@ video {
 .map_container {
 	background: url(../images/template/map.jpg) no-repeat 0px 0px;
 	height: 425px;
-	width: 760px;
+	width: 660px;
 	position: relative;
 
-	left: -200px;
+	left: -270px;
 	color: #fff;
 	float: right;
 	margin: 0 0 0 20px;
@@ -243,6 +243,10 @@ video {
 #canvas {
 	padding-left: 300px;
 }
+#canvas h3 {
+	color: #325473;
+	text-align: center;
+}
 /* top bar */
 #shopbox {
 	background-color: #325473;
@@ -275,35 +279,54 @@ video {
 	 top: 270px;
 	 left: -100px;
 	 text-align: center;
-	 height: 55%;
+	 height: 75%;
    }
    #logo {
    	width: 100%;
    	position: absolute;
    	top: 0;
-   	left: 100px;
+   	left: 50px;
    }
    #shopbox {
    	position: absolute;
-   	top: 140px;
+   	top: 170px;
+   	height: 23%;
+   	padding-top: 30px;
+   }
+   #shopbox a {
+   	font-size: 3.5em;
    }
    #video {
    	display: none;
    }
-   .map_container {
+   #map_container {
    	position: absolute;
-   	top: 500px;
+   	top: 1000px;
    	width: 100%;
    }
-   #wrapper {
+   .detail_container,
+   .city_detail_container,
+   .form_state,
+   .city_detail {
+   	float: left;
+   	clear: both;
+   }
+   #wrapper,
+   #canvas {
    	width: 90%;
    	position: relative;
-   	top: 900px;
+   	top: 1100px;
+   }
+   #canvas {
+   	width: 100%;
+   	position: relative;
+   	left: -300px;
+
    }
    #lightbox button {
    	 width: 15%;
    	 height: 2%;
-   	 font-size: 17pt;
+   	 font-size: 10pt;
    	 padding-bottom: 30px;
    }
    #lightbox img {
