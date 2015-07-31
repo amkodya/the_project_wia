@@ -1,3 +1,5 @@
+/* lbox.js ASHLEY M. KODYA THE PROJECT WIA w/ Eric Silvay July 2015 Full Sail University */
+
 window.onload = function() {
 
 	

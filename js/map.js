@@ -1,4 +1,4 @@
-/* MAP.JS FILL - ASHLEY KODYA FINAL PROJECT */
+/* MAP.JS ASHLEY M. KODYA THE PROJECT WIA w/ Eric Silvay July 2015 Full Sail University */
 
 $(document).ready(function() {
 

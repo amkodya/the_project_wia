@@ -1,4 +1,4 @@
-/* the project css file */
+/* the project css file ASHLEY M. KODYA THE PROJECT WIA w/ Eric Silvay July 2015 Full Sail University styles.css */
 
 body {
 	background-color: #F3E5CA;
@@ -244,8 +244,12 @@ video {
 	padding-left: 300px;
 }
 #canvas h3 {
+	position: relative;
+	top: 680px;
+	left: -600px;
 	color: #325473;
 	text-align: center;
+	font-size: 6pt;
 }
 /* top bar */
 #shopbox {
@@ -267,6 +271,10 @@ video {
 }
 #shopbox a:hover {
 	color: #D8AB91;
+}
+/*earrings page */
+.canvas2 {
+
 }
 @media screen and (max-width: 1000px) {
 
